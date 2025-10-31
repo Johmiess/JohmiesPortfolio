@@ -4,13 +4,12 @@
     align-items: center;
     justify-content: center;
     width: 50em;
-    height: auto;
+    height: 35em;
     border-color: black;
     border-style: solid;
     border-width: 0.2rem;
     padding: 1em; 
     border-radius: 1em;
-    flex-wrap: wrap;
 }
 
 div.title {

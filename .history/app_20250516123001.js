@@ -1,0 +1,18 @@
+const text = "Programmer, also likes making videos :)";
+const description = document.querySelector('.description');
+let index = 0; 
+
+function typeText(){
+  setTimeout(() => {
+    description.textContent = description.textContent.replace("|", "");
+   }, 150);
+  if(index < text.length){
+    description.textContent += text.charAt(index) + "|";
+    index ++;
+    setTimeout(typeText, 100);
+   }
+   setTimeout(() => {
+    description.textContent = description.textContent.replace("|", "");
+   }, 150);
+}
+window.addEventListener('load', typeText);
