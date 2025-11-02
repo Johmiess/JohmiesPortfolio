@@ -7,15 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-<div class = "pill">
-    <div class ="title"> 
-    <h1 class = "name">John Yang </h1>
-    <p class ="description">Programmer, also likes making videos</p>
+    <div class="sidebar">
+        <div class="navigation-container">
+            <div class="section-labels">
+                <div class="section-label" data-section="home">Home</div>
+                <div class="section-label" data-section="about">About</div>
+                <div class="section-label" data-section="projects">Projects</div>
+            </div>
+            <div class="pill-track">
+                <div class="draggable-circle" id="circle"></div>
+            </div>
+        </div>
     </div>
-    <div class = "img">
-    <img class="image" src="Selfie.png" alt="Your Image">
-    </div>
-</div>
 
+    <div class="main-content" id="main-content">
+        <!-- Sections will be loaded dynamically here -->
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
