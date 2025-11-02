@@ -1,0 +1,53 @@
+.pill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70em;
+    height: 40em;
+    border-color: black;
+    border-style: solid;
+    border-width: 1em;
+    padding: 1em; 
+}
+
+div.title {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    flex: 1;
+ }
+
+body{
+    background-color: bisque;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+font-family: "Brush Script MT", cursive;
+margin: 0;
+font-size: 8rem;
+}
+
+.description{
+font-family: 'Courier New', Courier, monospace;
+margin: 0;
+}
+
+.img{
+    display: flex;
+    margin: 3rem;
+    flex: 1;
+}
+
+.image {
+    object-fit: contain; /* Ensures the image covers its container nicely */
+    width: 30em;
+    height: 30em;
+}
